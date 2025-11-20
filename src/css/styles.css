@@ -68,7 +68,7 @@ body {
 }
 section{
   max-width: 460px;
-  width: 460px;
+  width: 100%;
   border-left: 1px dashed white;
   border-right: 1px dashed white;
   margin: 0 auto;
