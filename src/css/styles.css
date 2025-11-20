@@ -55,9 +55,11 @@ img {
 }
 
 body {
+  margin: 0;
   background-color: #0D0D0D;
-  color: white;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  color: rgb(180, 180, 180);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }
 
 @font-face {
@@ -90,12 +92,24 @@ section{
   color: white;
   text-align: center;
   padding: 20px;
+  margin: 20px;
+  font-weight: 500;
 }
 .link{
   position: fixed;
-    bottom: 20px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     max-width: 420px;
+}
+span{
+  color: white;
+}
+.bold{
+  font-weight: bold;
+}
+ul{
+  list-style-type: circle;
+  padding-left: 15px;
 }
