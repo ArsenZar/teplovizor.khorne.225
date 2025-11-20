@@ -5,14 +5,97 @@
   |============================
 */
 /* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+* {
+  box-sizing: border-box;
+}
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  background-color: #0D0D0D;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+@font-face {
+  font-family: 'Furore';
+  src: url('../assets/fonts/Furore.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+section{
+  max-width: 460px;
+  width: 460px;
+  border-left: 1px dashed white;
+  border-right: 1px dashed white;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 20px 20px;
+  position: relative;
+}
+.mainBG{
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.mainText{
+  padding: 20px 0px;
+}
+.buttonBanka{
+  background-color: #FB5255;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.link{
+  position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 420px;
+}
